@@ -1,0 +1,71 @@
+body{
+    padding-top: 70px; 
+    font-family: "Libre Baskerville", serif;
+    
+}
+
+
+.mydesign{
+    columns: #39FF14;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+
+.mainhead {
+  flex: 1;
+  min-width: 300px;
+}
+
+
+#mainimg {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+}
+
+#mainimg img.goat {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+.endimg{
+  width: 200px;
+  height: 200px;
+  border-radius: 250px;
+  
+  justify-self: center;
+}
+#me{
+  text-align: left;
+}
+.learnmecontainer{
+  display: grid;
+  grid-template-rows: 1fr ;
+  grid-template-columns: 1fr 1fr;
+
+}
+ @media (max-width: 600px) {
+    .endimg{
+  width: 200px;
+  height: 200px;
+  margin-left: 150px;
+    }  
+  #me{
+  text-align: center;
+  }
+  .learnmecontainer{
+  display: block;
+ 
+  }
+
+ }
